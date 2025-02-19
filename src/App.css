@@ -12,7 +12,7 @@
   margin: 5px;
   border: 10px;
   padding: 20px;
-  padding-left: 30px;
+  padding-left: 50px;
 
 }
 
@@ -63,11 +63,34 @@
 
 }
 
-.add-button {
+.amount-button {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 40px;
   background-color: #FFC067;
   border-style: solid;
   border-color: orange;
+}
+
+.subtotal {
+  margin-left: 10px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.order-button {
+  border-radius: 40px;
+  background-color: lightblue;
+  border-color: darkblue;
+  border-style: solid;
+  width: 80px;
+  font-size: 18px;
+
+
+}
+
+.clear-button {
+  border-radius: 40px;
+  width: 120px;
+  font-size: 18px;
 }
