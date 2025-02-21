@@ -104,7 +104,7 @@ function App() {
         ...prev,
         [id]: prev[id] - 1,
       }));
-      setTotalCost(prev => prev - price);
+      setTotalCost(prev => Math.max(prev - price,0));
     }
   };
 
